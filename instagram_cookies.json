@@ -1,0 +1,112 @@
+[
+  {
+    "name": "csrftoken",
+    "value": "26rhyNzRJNlPA9msxu6No2",
+    "domain": ".instagram.com",
+    "path": "/",
+    "expires": 1775889178.82744,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "datr",
+    "value": "FAn6Z6qHJmiiCioWzO_vPUcO",
+    "domain": ".instagram.com",
+    "path": "/",
+    "expires": 1778999572.235896,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ig_did",
+    "value": "D44369D9-C09B-4761-99AD-10258C6A5C89",
+    "domain": ".instagram.com",
+    "path": "/",
+    "expires": 1775975576.553026,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "wd",
+    "value": "1280x720",
+    "domain": ".instagram.com",
+    "path": "/",
+    "expires": 1745044377,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "dpr",
+    "value": "1.0000000149011612",
+    "domain": ".instagram.com",
+    "path": "/",
+    "expires": 1745044377,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ig_nrcb",
+    "value": "1",
+    "domain": ".instagram.com",
+    "path": "/",
+    "expires": 1775975573.037669,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "mid",
+    "value": "Z_oJFAALAAF2bySvuWo9mjwjihjM",
+    "domain": ".instagram.com",
+    "path": "/",
+    "expires": 1778999573,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sessionid",
+    "value": "73270181220%3ApChSDlhIPfpgW0%3A15%3AAYegoIFuyLFMl6UfLHsW-7sKcXbgj43i1WrpLALepA",
+    "domain": ".instagram.com",
+    "path": "/",
+    "expires": 1775975576.55293,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ds_user_id",
+    "value": "73270181220",
+    "domain": ".instagram.com",
+    "path": "/",
+    "expires": 1752215578.82751,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "rur",
+    "value": "\"NHA\\05473270181220\\0541775975578:01f76bc8529839d3120306d1875d5f6d7cd4584211ac86e83633e306cb8b643dc240a516\"",
+    "domain": ".instagram.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "test_cookie",
+    "value": "CheckForPermission",
+    "domain": ".doubleclick.net",
+    "path": "/",
+    "expires": 1744440479.51184,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  }
+]
