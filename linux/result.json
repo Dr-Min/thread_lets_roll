@@ -1,0 +1,15 @@
+{
+  "startTime": "2025-04-13T04:28:05.609Z",
+  "endTime": "2025-04-13T04:30:09.165Z",
+  "loginSuccess": true,
+  "profileVisited": true,
+  "replyButtonClicked": true,
+  "commentDialogOpened": true,
+  "commentSubmitted": false,
+  "errors": [
+    {
+      "type": "console",
+      "message": "ErrorUtils caught an error:\n\nPROGRESSIVE_JAVASCRIPT_NATIVE/MEDIA_ERR_SRC_NOT_SUPPORTED/URL_RESPONSE_HTTP_200: MEDIA_ERR_SRC_NOT_SUPPORTED/URL_RESPONSE_HTTP_200 Unknown media error. Fetched video content with Status:200 Content-Type:video/mp4 [Caught in: VideoPlayerErrorBoundary caught an PROGRESSIVE_JAVASCRIPT_NATIVE/MEDIA_ERR_SRC_NOT_SUPPORTED/URL_RESPONSE_HTTP_200 (VideoPlayerX)]\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1744518487, componentStackFrames: Array(63), extra: Object, guardList: Array(2)}"
+    }
+  ]
+}

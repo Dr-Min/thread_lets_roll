@@ -1,0 +1,19 @@
+{
+  "name": "threads-auto-clicker",
+  "version": "1.0.0",
+  "description": "쓰레드(Threads) 자동 로그인 및 댓글 작성 자동화",
+  "main": "simple-sso-clicker.js",
+  "scripts": {
+    "start": "node simple-sso-clicker.js",
+    "start:headless": "node simple-sso-clicker.js",
+    "setup": "npx playwright install chromium"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "playwright": "^1.42.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
