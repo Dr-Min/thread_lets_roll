@@ -1,6 +1,6 @@
 {
-  "startTime": "2025-04-12T11:09:53.888Z",
-  "endTime": "2025-04-12T11:12:10.299Z",
+  "startTime": "2025-04-15T14:46:51.125Z",
+  "endTime": "2025-04-15T14:49:24.712Z",
   "loginSuccess": true,
   "profileVisited": true,
   "replyButtonClicked": true,
@@ -9,35 +9,11 @@
   "errors": [
     {
       "type": "console",
-      "message": "ErrorUtils caught an error:\n\nPROGRESSIVE_JAVASCRIPT_NATIVE/MEDIA_ERR_SRC_NOT_SUPPORTED/URL_RESPONSE_HTTP_200: MEDIA_ERR_SRC_NOT_SUPPORTED/URL_RESPONSE_HTTP_200 Unknown media error. Fetched video content with Status:200 Content-Type:video/mp4 [Caught in: VideoPlayerErrorBoundary caught an PROGRESSIVE_JAVASCRIPT_NATIVE/MEDIA_ERR_SRC_NOT_SUPPORTED/URL_RESPONSE_HTTP_200 (VideoPlayerX)]\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1744456197, componentStackFrames: Array(63), extra: Object, guardList: Array(2)}"
-    },
-    {
-      "type": "console",
-      "message": "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin"
+      "message": "ErrorUtils caught an error:\n\nPROGRESSIVE_JAVASCRIPT_NATIVE/MEDIA_ERR_SRC_NOT_SUPPORTED/URL_RESPONSE_HTTP_200: MEDIA_ERR_SRC_NOT_SUPPORTED/URL_RESPONSE_HTTP_200 Unknown media error. Fetched video content with Status:200 Content-Type:video/mp4 [Caught in: VideoPlayerErrorBoundary caught an PROGRESSIVE_JAVASCRIPT_NATIVE/MEDIA_ERR_SRC_NOT_SUPPORTED/URL_RESPONSE_HTTP_200 (VideoPlayerX)]\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1744728412, componentStackFrames: Array(63), extra: Object, guardList: Array(2)}"
     },
     {
       "type": "console",
       "message": "Permissions policy violation: unload is not allowed in this document."
-    },
-    {
-      "type": "console",
-      "message": "Failed to load resource: the server responded with a status of 500 ()"
-    },
-    {
-      "type": "console",
-      "message": "ErrorUtils caught an error:\n\nFailed to create text-only post: Failed to fetch\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1744456310, extra: Object, guardList: Array(0), hash: jdvk2x}"
-    },
-    {
-      "type": "console",
-      "message": "ErrorUtils caught an error:\n\nEncountered a missing `@required` field with action \"THROW\" at \"media\" in \"BarcelonaPostShareMenuPopoverQuery\"\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 17357, clientTime: 1744456329, extra: Object, guardList: Array(1), hash: bvn3ze}"
-    },
-    {
-      "type": "console",
-      "message": "ErrorUtils caught an error:\n\nEncountered a missing `@required` field with action \"THROW\" at \"media\" in \"BarcelonaPostShareMenuPopoverQuery\" [Caught in: caught error in module a [from CometPrerenderer.react] (base)]\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, clientTime: 1744456329, componentStackFrames: Array(217), extra: Object, guardList: Array(1)}"
-    },
-    {
-      "type": "fatal",
-      "message": "page.waitForTimeout: Target page, context or browser has been closed"
     }
   ]
 }

@@ -4,13 +4,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node thread-bot.js"
+    "start": "node simple-sso-clicker.js",
+    "webhook": "node webhook-server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^4.18.2",
     "playwright": "^1.51.1"
   }
 }

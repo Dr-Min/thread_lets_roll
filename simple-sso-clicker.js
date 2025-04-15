@@ -14,7 +14,8 @@ const config = {
   timeout: 60000, // 기본 타임아웃 (60초)
   waitTime: 15000, // 기본 대기 시간 (15초)
   longWaitTime: 30000, // 긴 대기 시간 (30초) - 사용자 확인용
-  commentText: "hi", // 댓글 내용
+  commentText: "https://globexfeed.com/dustin-mays-triumphant-return-from-life-threatening-injury-to-dodgers-victory/", // 댓글 내용
+  minimizeWindow: true, // 창 자동 최소화 설정
 };
 
 // 스크립트가 실행된 시간
@@ -71,6 +72,20 @@ async function main() {
 
     // 페이지 열기
     const page = await context.newPage();
+
+    // 브라우저 창 최소화 설정
+    if (config.minimizeWindow) {
+      try {
+        const session = await page.context().newCDPSession(page);
+        await session.send('Browser.setWindowBounds', { 
+          windowId: 1, 
+          bounds: { windowState: 'minimized' } 
+        });
+        console.log("✅ 브라우저 창이 자동으로 최소화되었습니다.");
+      } catch (err) {
+        console.log(`⚠️ 브라우저 창 최소화 실패: ${err.message}`);
+      }
+    }
 
     // 에러 로그 핸들러 추가
     page.on("console", (msg) => {
